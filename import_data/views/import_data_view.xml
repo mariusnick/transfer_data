@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_import_data_wizard" model="ir.ui.view">
+        <field name="name">import.data.wizard</field>
+        <field name="model">import.data</field>
+        <field name="arch" type="xml">
+            <form string="Import Data">
+                <group>
+                    <group>
+                        <field name="time_import" />
+                        <field name="check" />
+                    </group>
+                    <group>
+                        <field name="dict_import_id"/>
+                        <field name="attachment_ids"  widget="many2many_binary" colspan="2" string="Select Files" nolabel="1"/>
+                    </group>
+                </group>
+                <footer>
+                    <button name="import_model" string="Import" type="object" />
+                    <button name="export_model" string="Export" type="object" />
+                    or
+                    <button string="Cancel" class="oe_link" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+     <record id="view_import_dict_form" model="ir.ui.view">
+            <field name="name">import.dict.form</field>
+            <field name="model">import.dict</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Model Data for Import">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name = 'name'/>
+                                <field name="level_multiline" />
+                                <field name="level_creation_allowed" />
+                            </group>
+                            <group>
+                                <field name="file_name_import_default" />
+                                <field name="file_name_header_default" />
+                                <field name="file_name_export_default" />
+                            </group>
+                        <group>
+                            <button name="export_to_csv" string="Export Header" type="object" class="btn-primary"/>
+                        </group>
+                        </group>
+                        <notebook colspan="4">
+                            <page string="Fields" name="import_lines">
+                                <field name="field_ids" >
+                                    <tree string="FF" editable="bottom">
+                                            <field name="name_field_file"/>
+                                            <field name="model_import_id"/>
+                                            <field name="field_import_id" domain="[('model_id', '=', model_import_id)]"/>
+                                            <field name="comodel_import_id"/>
+                                            <field name="field1_comodel_id" domain="[('model_id', '=', comodel_import_id)]"/>
+                                            <field name ="value1_comodel"/>
+                                             <field name="field2_comodel_id" domain="[('model_id', '=', comodel_import_id)]"/>
+                                            <field name ="value2_comodel"/>
+
+                                    </tree>
+                                </field>
+                            </page>
+                            <page string="Value Default" name="import_default_lines">
+                                <field name="field_default_ids" >
+                                    <tree string="DF" editable="bottom">
+                                        <field name='model_import_id'/>
+                                        <field name='field_import_id' domain="[('model_id', '=', model_import_id)]"/>
+                                        <field name='value'/>
+                                        <field name='code'/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+     </record>
+    <record id="view_import_dict_tree" model="ir.ui.view">
+        <field name="name">import.dict.tree</field>
+        <field name="model">import.dict</field>
+        <field name="arch" type="xml">
+            <tree string="Import Data">
+                        <field name="name" />
+
+            </tree>
+        </field>
+    </record>
+
+
+
+<!--                         <notebook colspan="4">-->
+<!--                            <page string="Payment Lines" name="payment_lines">-->
+<!--                                <field name="line_ids" colspan="4" nolabel="1">-->
+<!--                                    <tree string="Payment Lines" editable="bottom">-->
+<!--                                        <field name="employee_id"/>-->
+
+
+
+
+     <record id="view_import_data_tree" model="ir.ui.view">
+        <field name="name">import.data.tree</field>
+        <field name="model">import.data</field>
+        <field name="arch" type="xml">
+            <tree string="Import Data">
+
+                        <field name="time_import" />
+                        <field name="check" />
+                        <field name="dict_import_id" />
+
+            </tree>
+        </field>
+    </record>
+
+      <record id="view_import_data_form" model="ir.ui.view">
+        <field name="name">import.data.form</field>
+        <field name="model">import.data</field>
+        <field name="arch" type="xml">
+            <form string="Import Data">
+                <sheet>
+                    <group>
+                        <field name="dict_import_id" />
+                        <field name="check" />
+                    </group>
+                    <group>
+                        <field name="time_import" />
+                    </group>
+                     <field name="details" />
+                </sheet>
+
+            </form>
+        </field>
+    </record>
+
+    <record id="action_import_data" model="ir.actions.act_window">
+        <field name="name">Import Data</field>
+        <field name="res_model">import.data</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="view_import_data_wizard" />
+        <field name="target">new</field>
+    </record>
+     <record id="action_tree_import_data" model="ir.actions.act_window">
+        <field name="name">Imported Data</field>
+        <field name="res_model">import.data</field>
+        <field name="view_mode">tree,form</field>
+        <field name="target">current</field>
+    </record>
+
+     <record id="action_import_dict" model="ir.actions.act_window">
+        <field name="name">Import Model</field>
+        <field name="res_model">import.dict</field>
+        <field name="view_mode">tree,form</field>
+        <field name="target">current</field>
+     </record>
+
+    <menuitem
+        id="import_data.import_data_root"
+        name="Import Data"
+        web_icon="import_data,static/description/icon.png"
+    />
+
+    <menuitem
+        id="import_data.import_data"
+        name="Imported Data"
+        action="action_tree_import_data"
+        parent="import_data.import_data_root"
+    />
+
+    <menuitem
+        id="import_data.import_dict"
+        name="Import Dictionary"
+        action="action_import_dict"
+        parent="import_data.import_data_root"
+    />
+      <menuitem
+        id="import_data.run_import_data"
+        name="Run Import Data"
+        action="action_import_data"
+        parent="import_data.import_data_root"
+    />
+
+</odoo>

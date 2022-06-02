@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+     <record id="partner_g"  model="import.dict">
+         <field name ="name">Partner_g</field>
+         <field name ="file_name_import_default">prartner.csv</field>
+         <field name ="file_name_header_default">partner_header.csv</field>
+         <field name ="file_name_export_default">partner_out.csv</field>
+    </record>
+
+     <record id="cat_product_g"  model="import.dict">
+          <field name ="name">Categorie_Product_g</field>
+          <field name ="file_name_import_default">categorii_produse.csv</field>
+          <field name ="file_name_header_default">categorii_produse_hedear.csv</field>
+          <field name ="file_name_export_default">categorii_produse_out.csv</field>
+    </record>
+
+     <record id="product_g"  model="import.dict">
+         <field name ="name">Product_g</field>
+         <field name ="file_name_import_default">products.csv</field>
+         <field name ="file_name_header_default">product_header.csv</field>
+         <field name ="file_name_export_default">product_out.csv</field>
+    </record>
+
+    <record id="balance_partner_g"  model="import.dict">
+         <field name ="name">Balance_Partner_g</field>
+        <field name ="file_name_import_default">account_move_partner_one.csv</field>
+        <field name ="file_name_header_default">account_move_partner_one_header.csv</field>
+        <field name ="file_name_export_default">account_move_partner_one_out.csv</field>
+        <field name ="level_multiline">1</field>
+        <field name ="level_creation_allowed">1</field>
+    </record>
+
+    <record id="inventory_g"  model="import.dict">
+       <field name ="name">Inventory_g</field>
+        <field name ="file_name_import_default">inbom_line.csv</field>
+          <field name ="file_name_header_default">inventory_header.csv</field>
+          <field name ="file_name_export_default">inventory_out.csv</field>
+    </record>
+
+    <record id="bom_line_g"  model="import.dict">
+       <field name ="name">bom_line_g</field>
+        <field name ="file_name_import_default">bom_line.csv</field>
+        <field name ="file_name_header_default">bom_line_header.csv</field>
+        <field name ="file_name_export_default">bom_line_out.csv</field>
+    </record>
+
+     <record id="balance_account_g"  model="import.dict">
+         <field name ="name">Balance</field>
+         <field name ="file_name_import_default">account_move.csv</field>
+          <field name ="file_name_header_default">account_move_header.csv</field>
+          <field name ="file_name_export_default">account_move_out.csv</field>
+    </record>
+
+
+     <record id="lot_g"  model="import.dict">
+         <field name ="name">Lot</field>
+         <field name ="file_name_import_default">lot.csv</field>
+          <field name ="file_name_header_default">lot_header.csv</field>
+          <field name ="file_name_export_default">lot_out.csv</field>
+    </record>
+
+
+
+
+
+
+    <record id="partner_gl1" model="import.fields">
+        <field name = "name_field_file">Nume</field>
+        <field name = "model_import_id"  search = "[('model', '=', 'res.partner')]"
+        model = "ir.model" />
+        <field name = "field_import_id"  search = "[('model', '=', 'res.partner'),('name','=','name')]"
+        model = "ir.model.fields"/>
+        <field name="dict_import_id" ref="partner_g"/>
+    </record>
+
+    <record id="partner_gl2" model="import.fields">
+         <field name = "name_field_file" >CUI</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'res.partner')]"
+        model = "ir.model" />
+        <field name = "field_import_id"  search = "[('model', '=', 'res.partner'),('name','=','vat')]"
+        model = "ir.model.fields"/>
+        <field name="dict_import_id" ref="partner_g"/>
+    </record>
+
+
+     <record id="partner_gl4" model="import.fields">
+            <field name = "name_field_file" >Adresa</field>
+            <field name = "model_import_id"  search = "[('model', '=', 'res.partner')]"
+        model = "ir.model" />
+            <field name = "field_import_id"  search = "[('model', '=', 'res.partner'),('name','=','street')]"
+        model = "ir.model.fields"/>
+            <field name="dict_import_id" ref="partner_g"/>
+    </record>
+
+     <record id="partner_gl5" model="import.fields">
+         <field name = "name_field_file" >Adresa2</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'res.partner')]"
+         model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'res.partner'),('name','=','street2')]"
+        model = "ir.model.fields"/>
+        <field name="dict_import_id" ref="partner_g"/>
+    </record>
+
+     <record id="partner_gl6" model="import.fields">
+         <field name = "name_field_file" >Cod_postal</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'res.partner')]"
+         model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'res.partner'),('name','=','zip')]"
+         model = "ir.model.fields"/>
+        <field name="dict_import_id" ref="partner_g"/>
+    </record>
+
+     <record id="partner_gl7" model="import.fields">
+         <field name = "name_field_file" >Oras</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'res.partner')]"
+            model = "ir.model" />
+        <field name = "field_import_id"  search = "[('model', '=', 'res.partner'),('name','=','city')]"
+        model = "ir.model.fields"/>
+        <field name="dict_import_id" ref="partner_g"/>
+    </record>
+
+
+     <record id="partner_gl9" model="import.fields">
+         <field name = "name_field_file" >Email</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'res.partner')]"
+         model = "ir.model" />
+        <field name = "field_import_id"  search = "[('model', '=', 'res.partner'),('name','=','email')]"
+         model = "ir.model.fields"/>
+        <field name="dict_import_id" ref="partner_g"/>
+    </record>
+
+    <record id="partner_gl10" model="import.fields">
+         <field name = "name_field_file" >Telefon</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'res.partner')]"
+            model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'res.partner'),('name','=','phone')]"
+            model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="partner_g"/>
+    </record>
+
+    <record id="partner_gl11" model="import.fields">
+         <field name = "name_field_file" >Este_companie</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'res.partner')]"
+        model = "ir.model" />
+        <field name = "field_import_id"  search = "[('model', '=', 'res.partner'),('name','=','is_company')]"
+        model = "ir.model.fields"/>
+        <field name="dict_import_id" ref="partner_g"/>
+    </record>
+
+    <record id="partner_gl12" model="import.fields">
+        <field name = "name_field_file" >country_id</field>
+         <field name = "name_field_file" >Tara</field>
+        <field name = "field_import_id"  search = "[('model', '=', 'res.partner'),('name','=','country_id')]"
+        model = "ir.model.fields"/>
+        <field name = "model_import_id"  search = "[('model', '=', 'res.partner')]"
+        model = "ir.model" />
+        <field name = "comodel_import_id"  search = "[('model', '=', 'res.country')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'res.country'),('name','=','name')]"/>
+        <field name="dict_import_id" ref="partner_g"/>
+    </record>
+
+     <record id="partner_gl13" model="import.fields">
+         <field name = "name_field_file" >Judet</field>
+          <field name = "field_import_id"  search = "[('model', '=', 'res.partner'),('name','=','state_id')]"
+        model = "ir.model.fields"/>
+        <field name = "model_import_id"  search = "[('model', '=', 'res.partner')]"
+        model = "ir.model" />
+        <field name = "comodel_import_id"  search = "[('model', '=', 'res.country.state')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'res.country.state'),('name','=','code')]"/>
+        <field name="dict_import_id" ref="partner_g"/>
+    </record>
+
+
+    <record id="cat_product_gl1" model="import.fields">
+         <field name = "name_field_file" >nume</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'product.category')]"
+        model = "ir.model" />
+        <field name = "field_import_id"  search = "[('model', '=', 'product.category'),('name','=','name')]"
+        model = "ir.model.fields"/>
+        <field name="dict_import_id" ref="cat_product_g"/>
+    </record>
+
+    <record id="cat_product_gl2" model="import.fields">
+         <field name = "name_field_file" >Categoria_parinte</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'product.category')]"
+        model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'product.category'),('name','=','parent_id')]"
+        model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'product.category')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'product.category'),('name','=','name')]"/>
+        <field name="dict_import_id" ref="cat_product_g"/>
+    </record>
+
+     <record id="product_gl1" model="import.fields">
+         <field name = "name_field_file" >Nume</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'product.template')]"
+         model = "ir.model" />
+        <field name = "field_import_id"  search = "[('model', '=', 'product.template'),('name','=','name')]"
+        model = "ir.model.fields"/>
+        <field name="dict_import_id" ref="product_g"/>
+    </record>
+
+
+    <record id="product_gl1" model="import.fields">
+         <field name = "name_field_file" >Nume</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'product.template')]"
+         model = "ir.model" />
+        <field name = "field_import_id"  search = "[('model', '=', 'product.template'),('name','=','name')]"
+        model = "ir.model.fields"/>
+        <field name="dict_import_id" ref="product_g"/>
+    </record>
+
+
+    <record id="product_gl2" model="import.fields">
+         <field name = "name_field_file" >Vanzare_ok</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'product.template')]"
+         model = "ir.model" />
+        <field name = "field_import_id"  search = "[('model', '=', 'product.template'),('name','=','sale_ok')]"
+        model = "ir.model.fields"/>
+        <field name="dict_import_id" ref="product_g"/>
+    </record>
+
+     <record id="product_gl3" model="import.fields">
+         <field name = "name_field_file" >Achizitie_ok</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'product.template')]"
+         model = "ir.model" />
+        <field name = "field_import_id"  search = "[('model', '=', 'product.template'),('name','=','purchase_ok')]"
+        model = "ir.model.fields"/>
+        <field name="dict_import_id" ref="product_g"/>
+    </record>
+
+     <record id="product_gl4" model="import.fields">
+         <field name = "name_field_file" >Pret</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'product.template')]"
+         model = "ir.model" />
+        <field name = "field_import_id"  search = "[('model', '=', 'product.template'),('name','=','list_price')]"
+        model = "ir.model.fields"/>
+        <field name="dict_import_id" ref="product_g"/>
+    </record>
+
+     <record id="product_gl5" model="import.fields">
+         <field name = "name_field_file" >Categorie</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'product.template')]"
+         model = "ir.model" />
+        <field name = "field_import_id"  search = "[('model', '=', 'product.template'),('name','=','categ_id')]"
+        model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'product.category')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'product.category'),('name','=','name')]"/>
+        <field name="dict_import_id" ref="product_g"/>
+    </record>
+
+    <record id="product_gl6" model="import.fields">
+         <field name = "name_field_file" >Unitate</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'product.template')]"
+         model = "ir.model" />
+        <field name = "field_import_id"  search = "[('model', '=', 'product.template'),('name','=','uom_id')]"
+        model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'uom.uom')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'uom.uom'),('name','=','name')]"/>
+        <field name="dict_import_id" ref="product_g"/>
+    </record>
+
+    <record id="product_gl7" model="import.fields">
+         <field name = "name_field_file" >Unitate_achizitie</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'product.template')]"
+         model = "ir.model" />
+        <field name = "field_import_id"  search = "[('model', '=', 'product.template'),('name','=','uom_po_id')]"
+        model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'uom.uom')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'uom.uom'),('name','=','name')]"/>
+        <field name="dict_import_id" ref="product_g"/>
+    </record>
+
+    <record id="product_gl8" model="import.fields">
+         <field name = "name_field_file" >Cod_produs</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'product.template')]"
+         model = "ir.model" />
+        <field name = "field_import_id"  search = "[('model', '=', 'product.template'),('name','=','default_code')]"
+        model = "ir.model.fields"/>
+        <field name="dict_import_id" ref="product_g"/>
+    </record>
+
+    <record id="product_gl9" model="import.fields">
+         <field name = "name_field_file" >Taxe</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'product.template')]"
+         model = "ir.model" />
+        <field name = "field_import_id"  search = "[('model', '=', 'product.template'),('name','=','taxes_id')]"
+        model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'account.tax')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'account.tax'),('name','=','name')]"/>
+        <field name="dict_import_id" ref="product_g"/>
+    </record>
+
+    <record id="product_gl10" model="import.fields">
+         <field name = "name_field_file" >Taxe_achizitie</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'product.template')]"
+          model = "ir.model" />
+        <field name = "field_import_id"  search = "[('model', '=', 'product.template'),('name','=','supplier_taxes_id')]"
+           model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'account.tax')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'account.tax'),('name','=','name')]"/>
+        <field name="dict_import_id" ref="product_g"/>
+    </record>
+
+     <record id="product_gl11" model="import.fields">
+         <field name = "name_field_file" >Tip_produs</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'product.template')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'product.template'),('name','=','type')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="product_g"/>
+    </record>
+
+    <record id="balance_partner_gl1" model="import.fields">
+         <field name = "name_field_file" >Debit</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move.line'),('name','=','debit')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="balance_partner_g"/>
+    </record>
+
+    <record id="balance_partner_gl2" model="import.fields">
+         <field name = "name_field_file" >Credit</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move.line'),('name','=','credit')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="balance_partner_g"/>
+    </record>
+
+    <record id="balance_partner_gl3" model="import.fields">
+         <field name = "name_field_file" >Balanta_valuta</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move.line'),('name','=','amount_currency')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="balance_partner_g"/>
+    </record>
+
+    <record id="balance_partner_gl4" model="import.fields">
+         <field name = "name_field_file" >Data</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move.line'),('name','=','date')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="balance_partner_g"/>
+    </record>
+
+    <record id="balance_partner_gl5" model="import.fields">
+         <field name = "name_field_file" >Data_scadenta</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move.line'),('name','=','date_maturity')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="balance_partner_g"/>
+    </record>
+
+    <record id="balance_partner_gl6" model="import.fields">
+         <field name = "name_field_file" >Tipul_facturi</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move'),('name','=','move_type')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="balance_partner_g"/>
+    </record>
+
+     <record id="balance_partner_gl7" model="import.fields">
+         <field name = "name_field_file" >ref</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move'),('name','=','ref')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="balance_partner_g"/>
+    </record>
+
+     <record id="balance_partner_gl8" model="import.fields">
+         <field name = "name_field_file" >State</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move'),('name','=','state')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="balance_partner_g"/>
+    </record>
+
+     <record id="balance_partner_gl9" model="import.fields">
+         <field name = "name_field_file" >Valuta</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move.line'),('name','=','currency_id')]"
+           model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'res.currency')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'res.currency'),('name','=','name')]"/>
+         <field name="dict_import_id" ref="balance_partner_g"/>
+    </record>
+
+    <record id="balance_partner_gl10" model="import.fields">
+         <field name = "name_field_file" >Cont</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move.line'),('name','=','account_id')]"
+           model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'account.account')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'account.account'),('name','=','code')]"/>
+         <field name="dict_import_id" ref="balance_partner_g"/>
+    </record>
+
+    <record id="balance_partner_gl11" model="import.fields">
+         <field name = "name_field_file" >ID_partener</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move.line'),('name','=','partner_id')]"
+           model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'res.partner')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'res.partner'),('name','=','name')]"/>
+         <field name="dict_import_id" ref="balance_partner_g"/>
+    </record>
+
+     <record id="balance_partner_gl7" model="import.fields">
+         <field name = "name_field_file" >label</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move.line'),('name','=','name')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="balance_partner_g"/>
+    </record>
+
+
+     <record id="inventory_gl1" model="import.fields">
+         <field name = "name_field_file" >label</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'stock.inventory.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'stock.inventory.line'),('name','=','inventory_id')]"
+           model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'stock.inventory')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'stock.inventory'),('name','=','name')]"/>
+         <field name = "value1_comodel">Inventory_month</field>
+         <field name="dict_import_id" ref="inventory_g"/>
+    </record>
+
+     <record id="inventory_gl2" model="import.fields">
+         <field name = "name_field_file" >Cantitatea</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'stock.inventory.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'stock.inventory.line'),('name','=','product_qty')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="inventory_g"/>
+    </record>
+
+    <record id="inventory_gl3" model="import.fields">
+         <field name = "name_field_file" >Product_ID</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'stock.inventory.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'stock.inventory.line'),('name','=','product_id')]"
+           model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'product.product')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'product.product'),('name','=','default_code')]"/>
+         <field name="dict_import_id" ref="inventory_g"/>
+    </record>
+
+    <record id="inventory_gl4" model="import.fields">
+         <field name = "name_field_file" >Depozit</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'stock.inventory.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'stock.inventory.line'),('name','=','location_id')]"
+           model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'stock.location')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'stock.location'),('name','=','complete_name')]"/>
+         <field name="dict_import_id" ref="inventory_g"/>
+    </record>
+
+     <record id="bom_line_gl1" model="import.fields">
+         <field name = "name_field_file" >Code_bom</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'mrp.bom')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'mrp.bom'),('name','=','code')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="bom_line_g"/>
+    </record>
+
+     <record id="bom_line_g2" model="import.fields">
+         <field name = "name_field_file" >Cantitate_Produsa</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'mrp.bom')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'mrp.bom'),('name','=','product_qty')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="bom_line_g"/>
+    </record>
+
+    <record id="bom_line_g3" model="import.fields">
+         <field name = "name_field_file" >ID_Produs</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'mrp.bom')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'mrp.bom'),('name','=','product_tmpl_id')]"
+           model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'product.template')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'product.template'),('name','=','name')]"/>
+         <field name="dict_import_id" ref="bom_line_g"/>
+    </record>
+
+     <record id="bom_line_g4" model="import.fields">
+         <field name = "name_field_file" >Cantitate_Necesara</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'mrp.bom.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'mrp.bom.line'),('name','=','product_qty')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="bom_line_g"/>
+    </record>
+
+     <record id="bom_line_g5" model="import.fields">
+         <field name = "name_field_file" >Unitatea_Masura</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'mrp.bom.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'mrp.bom.line'),('name','=','product_uom_id')]"
+           model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'uom.uom')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'uom.uom'),('name','=','name')]"/>
+         <field name="dict_import_id" ref="bom_line_g"/>
+    </record>
+
+    <record id="bom_line_g6" model="import.fields">
+         <field name = "name_field_file" >ID_Componenta</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'mrp.bom.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'mrp.bom.line'),('name','=','product_id')]"
+           model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'product.product')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'product.product'),('name','=','name')]"/>
+         <field name="dict_import_id" ref="bom_line_g"/>
+    </record>
+
+
+
+
+
+
+     <record id="balance_account_gl2" model="import.fields">
+         <field name = "name_field_file" >Credit_initial</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move.line'),('name','=','credit')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="balance_account_g"/>
+    </record>
+
+    <record id="balance_account_gl3" model="import.fields">
+         <field name = "name_field_file" >Balanta_initiala_moneda</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move.line'),('name','=','balance')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="balance_account_g"/>
+    </record>
+
+    <record id="balance_account_gl4" model="import.fields">
+         <field name = "name_field_file" >data</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move.line'),('name','=','date')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="balance_account_g"/>
+    </record>
+
+
+
+     <record id="balance_account_gl7" model="import.fields">
+         <field name = "name_field_file" >ref</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move'),('name','=','ref')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="balance_account_g"/>
+    </record>
+
+     <record id="balance_account_gl8" model="import.fields">
+         <field name = "name_field_file" >State</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move'),('name','=','state')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="balance_account_g"/>
+    </record>
+
+     <record id="balance_account_gl9" model="import.fields">
+         <field name = "name_field_file" >Moneda</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move.line'),('name','=','currency_id')]"
+           model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'res.currency')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'res.currency'),('name','=','name')]"/>
+         <field name="dict_import_id" ref="balance_account_g"/>
+    </record>
+
+    <record id="balance_account_gl10" model="import.fields">
+         <field name = "name_field_file" >Cont</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'account.move.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'account.move.line'),('name','=','account_id')]"
+           model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'account.account')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'account.account'),('name','=','code')]"/>
+         <field name="dict_import_id" ref="balance_account_g"/>
+    </record>
+
+    <record id="lot_gl1" model="import.fields">
+         <field name = "name_field_file" >Nume_lot</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'stock.production.lot')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'stock.production.lot'),('name','=','name')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="lot_g"/>
+    </record>
+
+     <record id="lot_gl2" model="import.fields">
+         <field name = "name_field_file" >Product_id</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'stock.production.lot')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'stock.production.lot'),('name','=','product_id')]"
+           model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'product.product')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'product.product'),('name','=','default_code')]"/>
+         <field name="dict_import_id" ref="lot_g"/>
+    </record>
+
+    <record id="lot_gl3" model="import.fields">
+         <field name = "name_field_file" >Company_id</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'stock.production.lot')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'stock.production.lot'),('name','=','company_id')]"
+           model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'res.company')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'res.company'),('name','=','id')]"/>
+         <field name="dict_import_id" ref="lot_g"/>
+    </record>
+
+
+     <record id="bom_line_gl1" model="import.fields">
+         <field name = "name_field_file" >Code_bom</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'mrp.bom')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'mrp.bom'),('name','=','code')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="bom_line_g"/>
+    </record>
+
+     <record id="bom_line_gl2" model="import.fields">
+         <field name = "name_field_file" >ID_Produs</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'mrp.bom')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'mrp.bom'),('name','=','product_tmpl_id')]"
+           model = "ir.model.fields"/>
+           <field name = "comodel_import_id"  search = "[('model', '=', 'product.template')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'product.template'),('name','=','name')]"/>
+         <field name="dict_import_id" ref="bom_line_g"/>
+    </record>
+
+    <record id="bom_line_gl3" model="import.fields">
+         <field name = "name_field_file" >Cantitate_Produsa</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'mrp.bom')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'mrp.bom'),('name','=','product_qty')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="bom_line_g"/>
+    </record>
+
+     <record id="bom_line_gl4" model="import.fields">
+         <field name = "name_field_file" >ID_componenta</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'mrp.bom.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'mrp.bom.line'),('name','=','product_id')]"
+           model = "ir.model.fields"/>
+          <field name = "comodel_import_id"  search = "[('model', '=', 'product.product')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'product.product'),('name','=','name')]"/>
+         <field name="dict_import_id" ref="bom_line_g"/>
+    </record>
+
+     <record id="bom_line_gl5" model="import.fields">
+         <field name = "name_field_file" >Cantitate_Necesara</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'mrp.bom.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'mrp.bom.line'),('name','=','product_qty')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="bom_line_g"/>
+    </record>
+
+    <record id="bom_line_gl6" model="import.fields">
+         <field name = "name_field_file" >Unitatea_Masura</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'mrp.bom.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'mrp.bom.line'),('name','=','product_uom_id')]"
+           model = "ir.model.fields"/>
+         <field name = "comodel_import_id"  search = "[('model', '=', 'uom.uom')]" />
+         <field name = "field1_comodel_id" search = "[('model', '=', 'uom.uom'),('name','=','name')]"/>
+         <field name="dict_import_id" ref="bom_line_g"/>
+    </record>
+
+    <record id="bom_line_gl7" model="import.fields">
+         <field name = "name_field_file" >ID_line</field>
+         <field name = "model_import_id"  search = "[('model', '=', 'mrp.bom.line')]"
+           model = "ir.model" />
+         <field name = "field_import_id"  search = "[('model', '=', 'mrp.bom.line'),('name','=','id')]"
+           model = "ir.model.fields"/>
+         <field name="dict_import_id" ref="bom_line_g"/>
+    </record>
+
+
+
+</odoo>

@@ -1,0 +1,3 @@
+ID,Code_bom,ID_Produs_fabricat,Cantitate_Produsa,ID_Produs,Cantitatea_Necesara,Unitatea_Masura,ID_line
+bom_1,117,Sampon_7San,11,Sampon,9,Units,4
+bom_1,117,Sampon_7San,11,Sampon_San,15,Units,5

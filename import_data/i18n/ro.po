@@ -1,0 +1,293 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_ro_account_asset
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-09 08:58+0000\n"
+"PO-Revision-Date: 2021-01-09 08:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_ro_account_asset
+#: model_terms:ir.ui.view,arch_db:l10n_ro_account_asset.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" role=\"img\" aria-label=\"Values set here are company-"
+"specific.\" groups=\"base.group_multi_company\"/>"
+msgstr ""
+
+#. module: l10n_ro_account_asset
+#: model:ir.model,name:l10n_ro_account_asset.model_account_assets_report_ro
+msgid "Account Assets Report Romania"
+msgstr "Raport Active Romania"
+
+#. module: l10n_ro_account_asset
+#: code:addons/l10n_ro_account_asset/report/account_assets_report.py:0
+#, python-format
+msgid "Acquisition Date"
+msgstr "Data Intrarii"
+
+#. module: l10n_ro_account_asset
+#: model_terms:ir.ui.view,arch_db:l10n_ro_account_asset.view_account_asset_group_form
+msgid "Asset"
+msgstr "Activ"
+
+#. module: l10n_ro_account_asset
+#: model_terms:ir.ui.view,arch_db:l10n_ro_account_asset.view_account_asset_group_search
+msgid "Asset Account"
+msgstr "Cont Activ"
+
+#. module: l10n_ro_account_asset
+#: code:addons/l10n_ro_account_asset/report/account_assets_report.py:0
+#: model_terms:ir.ui.view,arch_db:l10n_ro_account_asset.view_account_asset_search
+#, python-format
+msgid "Asset Category"
+msgstr "Categorie Activ"
+
+#. module: l10n_ro_account_asset
+#: model:ir.model,name:l10n_ro_account_asset.model_account_asset_group
+msgid "Asset Group"
+msgstr "Grup Activ"
+
+#. module: l10n_ro_account_asset
+#: model:ir.actions.act_window,name:l10n_ro_account_asset.account_asset_group_action
+#: model:ir.ui.menu,name:l10n_ro_account_asset.menu_action_account_asset_group_form
+msgid "Asset Groups"
+msgstr "Grupuri Active"
+
+#. module: l10n_ro_account_asset
+#: model:ir.actions.client,name:l10n_ro_account_asset.action_account_report_assets
+#: model:ir.ui.menu,name:l10n_ro_account_asset.menu_action_account_report_assets
+msgid "Asset Report"
+msgstr "Raport Active"
+
+#. module: l10n_ro_account_asset
+#: model_terms:ir.ui.view,arch_db:l10n_ro_account_asset.view_account_asset_form
+msgid "Asset Values"
+msgstr "Valori Activ"
+
+#. module: l10n_ro_account_asset
+#: model_terms:ir.ui.view,arch_db:l10n_ro_account_asset.view_account_asset_group_tree
+msgid "Asset category"
+msgstr "Categorie Activ"
+
+#. module: l10n_ro_account_asset
+#: model:ir.model,name:l10n_ro_account_asset.model_account_asset
+msgid "Asset/Revenue Recognition"
+msgstr ""
+
+#. module: l10n_ro_account_asset
+#: code:addons/l10n_ro_account_asset/report/account_assets_report.py:0
+#, python-format
+msgid "Book Value"
+msgstr "Valoare de inventar"
+
+#. module: l10n_ro_account_asset
+#: model_terms:ir.ui.view,arch_db:l10n_ro_account_asset.view_account_asset_group_search
+msgid "Category"
+msgstr "Categorie"
+
+#. module: l10n_ro_account_asset
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset_group__code
+msgid "Code"
+msgstr "Cod"
+
+#. module: l10n_ro_account_asset
+#: model:ir.model,name:l10n_ro_account_asset.model_res_company
+msgid "Companies"
+msgstr "Companii"
+
+#. module: l10n_ro_account_asset
+#: model:ir.model,name:l10n_ro_account_asset.model_res_config_settings
+msgid "Config Settings"
+msgstr "Setări de configurare"
+
+#. module: l10n_ro_account_asset
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset_group__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: l10n_ro_account_asset
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset_group__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: l10n_ro_account_asset
+#: code:addons/l10n_ro_account_asset/report/account_assets_report.py:0
+#, python-format
+msgid "Depreciable Value"
+msgstr "Val. ramasa (neamortizata)"
+
+#. module: l10n_ro_account_asset
+#: code:addons/l10n_ro_account_asset/report/account_assets_report.py:0
+#, python-format
+msgid "Depreciated Amount"
+msgstr "Amortizare inregistrata"
+
+#. module: l10n_ro_account_asset
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset__display_name
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset_group__display_name
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_assets_report_ro__display_name
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Nume afișat"
+
+#. module: l10n_ro_account_asset
+#: code:addons/l10n_ro_account_asset/report/account_assets_report.py:0
+#, python-format
+msgid "Disposal Date"
+msgstr "Data iesirii"
+
+#. module: l10n_ro_account_asset
+#: code:addons/l10n_ro_account_asset/report/account_assets_report.py:0
+#, python-format
+msgid "Duration"
+msgstr "Durata funct."
+
+#. module: l10n_ro_account_asset
+#: code:addons/l10n_ro_account_asset/report/account_assets_report.py:0
+#, python-format
+msgid "Account / Asset Name"
+msgstr "Cont / Denumire imobilizare"
+
+#. module: l10n_ro_account_asset
+#: code:addons/l10n_ro_account_asset/report/account_assets_report.py:0
+#, python-format
+msgid "First Depreciation Date"
+msgstr "Data prima amortizare"
+
+#. module: l10n_ro_account_asset
+#: code:addons/l10n_ro_account_asset/report/account_assets_report.py:0
+#, python-format
+msgid "Gross Increase Value"
+msgstr "Valoare modernizari"
+
+#. module: l10n_ro_account_asset
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset__group_id
+msgid "Group"
+msgstr "Grup"
+
+#. module: l10n_ro_account_asset
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset__id
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset_group__id
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_assets_report_ro__id
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_res_config_settings__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_ro_account_asset
+#: code:addons/l10n_ro_account_asset/report/account_assets_report.py:0
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset__inventory_number
+#, python-format
+msgid "Inventory Number"
+msgstr "Numar Inventar"
+
+#. module: l10n_ro_account_asset
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset____last_update
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset_group____last_update
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_assets_report_ro____last_update
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_res_company____last_update
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_res_config_settings____last_update
+msgid "Last Modified on"
+msgstr "Ultima modificare la"
+
+#. module: l10n_ro_account_asset
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset_group__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: l10n_ro_account_asset
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset_group__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: l10n_ro_account_asset
+#: model_terms:ir.ui.view,arch_db:l10n_ro_account_asset.res_config_settings_view_form
+msgid "Load Romania Assets Groups and Models"
+msgstr "Incarca Modele si Categorii Active - Romania"
+
+#. module: l10n_ro_account_asset
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_res_company__l10n_ro_asset_group_load
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_res_config_settings__l10n_ro_asset_group_load
+msgid "Load Romanian Asset Groups"
+msgstr "Incarca Modele si Categorii Active - Romania"
+
+#. module: l10n_ro_account_asset
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset__method_number_max
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset_group__method_number_max
+msgid "Maximum Number of Depreciations"
+msgstr "Numar maxim amortizari"
+
+#. module: l10n_ro_account_asset
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset__method_number_min
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset_group__method_number_min
+msgid "Minimum Number of Depreciations"
+msgstr "Numar minim amortizari"
+
+#. module: l10n_ro_account_asset
+#: code:addons/l10n_ro_account_asset/report/account_assets_report.py:0
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset__monthly_depreciation
+#, python-format
+msgid "Monthly Depreciation"
+msgstr "Amortizare lunara"
+
+#. module: l10n_ro_account_asset
+#: model:ir.model.fields,field_description:l10n_ro_account_asset.field_account_asset_group__name
+msgid "Name"
+msgstr "Nume"
+
+#. module: l10n_ro_account_asset
+#: code:addons/l10n_ro_account_asset/models/account_asset_asset.py:0
+#, python-format
+msgid ""
+"Number of depreciations invalid, it must be between asset model limits."
+msgstr ""
+"Numar de amortizari invalid, trebuie sa fie intre limitele setate pe modelul de activ."
+
+#. module: l10n_ro_account_asset
+#: code:addons/l10n_ro_account_asset/report/account_assets_report.py:0
+#, python-format
+msgid "Original Value"
+msgstr "Valoare Intrare"
+
+#. module: l10n_ro_account_asset
+#: model_terms:ir.ui.view,arch_db:l10n_ro_account_asset.view_account_asset_group_form
+msgid "Periods"
+msgstr "Perioade"
+
+#. module: l10n_ro_account_asset
+#: code:addons/l10n_ro_account_asset/report/account_assets_report.py:0
+#, python-format
+msgid "Remained Duration"
+msgstr "Durata Ramasa"
+
+#. module: l10n_ro_account_asset
+#: model:ir.model.fields,help:l10n_ro_account_asset.field_account_asset__method_number_max
+#: model:ir.model.fields,help:l10n_ro_account_asset.field_account_asset_group__method_number_max
+msgid ""
+"The maximum number of depreciations of your asset - expressed in months"
+msgstr ""
+"Numarul maxim de amortizari al activului - exprimat in luni"
+
+#. module: l10n_ro_account_asset
+#: model:ir.model.fields,help:l10n_ro_account_asset.field_account_asset__method_number_min
+#: model:ir.model.fields,help:l10n_ro_account_asset.field_account_asset_group__method_number_min
+msgid ""
+"The minimum number of depreciations of your asset - expressed in months"
+msgstr ""
+"Numarul minim de amortizari al activului - exprimat in luni"
+
+#. module: l10n_ro_account_asset
+#: code:addons/l10n_ro_account_asset/report/account_assets_report.py:0
+#, python-format
+msgid "Total"
+msgstr "Total"

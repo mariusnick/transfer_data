@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_import_data,access.import.data,model_import_data,base.group_system,1,1,1,1
+access_import_dict,access.import.dict,model_import_dict,base.group_system,1,1,1,1
+access_import_fields,access.import.fields,model_import_fields,base.group_system,1,1,1,1
+access_export_csv_file,access.export.csv.file,model_export_csv_file,base.group_system,1,1,1,1
+access_import_default_fields,acces.import.default.fields,model_import_default_fields,base.group_system,1,1,1,1

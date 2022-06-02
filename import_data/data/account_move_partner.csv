@@ -1,0 +1,3 @@
+Cont,ID_partener,Debit,Credit,Balanta_valuta,Valuta,Data_scadenta,data,tipul_facturi,State
+409100,Raspuns,0,310,0,RON,2021-06-30,2021-06-29,entry,draft
+121000,Raspuns,310,0,0,RON,2021-06-30,2021-06-29,entry,draft

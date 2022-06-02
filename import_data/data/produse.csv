@@ -1,0 +1,403 @@
+Nume,Categorie,Tip_produs,Pret,Vanzare_ok,Achizitie_ok,Unitate,Unitate_achizitie,Taxe,Taxe_achizitie,Descriere
+AFINE,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,2
+Alb de Petro Vaselo,Bauturi alcoolice ,product,37.8151,ok,ok,Units,Units,TVA deductibil 19% Bunuri,TVA colectat 19% Bunuri,5
+Ardei capia conserva,Legume,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,6
+Ardei copt,Legume,product,0,ok,ok,kg,kg,TVA colectat 19% Bunuri,TVA deductibil 9% Bunuri,8
+Batonash cu alune si cacao 50g,Snacks,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,10
+Batonash cu migdale si portocale 50g,Snacks,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,14
+Batonash cu unt de arahide 50g,Snacks,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,16
+Bere Anagram Best Coast IPA 330ml,Bauturi alcoolice ,product,12.605,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,18
+Bere Anagram Big Sur 330ml,Bauturi alcoolice ,product,12.605,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,19
+Bere Anagram Chocol�ha Spicy Chocolate Stout 330ml,Bauturi alcoolice ,product,12.605,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,20
+Bere Anagram Cinco de Cuatro Baja Lager 330 mL,Bauturi alcoolice ,product,12.605,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,21
+Bere Anagram Saison de Citron 330ml,Bauturi alcoolice ,product,12.605,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,22
+Boia iute,Ingrediente,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,27
+Borcan 212 bonta to 66 (220g),Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,29
+Borcan 314 quadro,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,30
+Borcan 350 to82,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,31
+Borcan amfora,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,33
+Borcan hex 196 to58 (GR-200g),Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,34
+Borcan patrat 314ml,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,35
+Borcan patrat 380ml,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,36
+Bulion,Ingrediente,product,0,ok,ok,L,L,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,41
+Cabernet Sauvignon 2016 Galicea Mare,Bauturi alcoolice ,product,82.3529,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,42
+Cafea Origo 1kg,Cafea ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,45
+Caisata Bran 700ml,Bauturi alcoolice ,product,151.2605,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,49
+Caise,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,50
+Caise jumatati,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,51
+Cana ceramica Horezu,Misc,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,53
+Capac to82 (borc 350),Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,57
+Capac tw 58 (GR-200g),Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,59
+Capac tw 66 (220g),Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,60
+Capac tw63,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,61
+Capac tw63 (314 quadro),Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,62
+Capac TW70 (borc380ml),Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,63
+Capac twis off 77mm,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,64
+Capac twist off 110,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,65
+C?p?unat? Bran 700ml,Bauturi alcoolice ,product,100.8403,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,70
+Carassia Spumant Blanc de Blancs 0.75L,Bauturi alcoolice ,product,100.8403,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,71
+Cascara de cafe Kofi Ti 100g,Bauturi,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,74
+Cascara Lemonade Kofi Ti 330 ml,Bauturi,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,75
+Ceai de cimbrisor salbatic Wildbliss Organic 50g,Ceai,product,40.367,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,80
+Ceai de flori de soc Wildbliss Organic 50g,Ceai,product,40.367,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,81
+Ceai de paducel salbatic Wildbliss Organic 50g,Ceai,product,40.367,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,82
+Ceai de urzica salbatica Wildbliss Organic 50g,Ceai,product,40.367,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,83
+Ceai din boabe de cacao cu coaja de portocala si scortisoara 100g,Ceai,product,13.7615,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,84
+Ceai din boabe de cacao cu flori hibiscus si trandafir 100g,Ceai,product,13.7615,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,85
+Ceai din boabe de cacao cu fructe goji si aronia 100g,Ceai,product,13.7615,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,86
+Ceai din boabe de cacao cu frunze de rooibos 100g,Ceai,product,13.7615,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,87
+Ceai din boabe de cacao cu miere si miere 100g,Ceai,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,88
+Ceapa,Legume,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,89
+Ceapa cub,Legume,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,90
+Chardonnay 2016 Galicea Mare,Bauturi alcoolice ,product,57.9832,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,94
+Chutney de rosii Bollywood Star by Chef Sosin,Snacks,product,26.6055,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,99
+Cidru Abund Berry 330 ml,Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,100
+Ciocolata Razvan 54% cacao cu lapte 70g,Ciocolata,product,12,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,101
+Ciocolata Razvan 54% cacao cu lapte si fistic 80g,Ciocolata,product,18.3394,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,102
+Ciocolata Razvan 54% cacao cu lapte si fistic 40g,Ciocolata,product,11,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,103
+Ciocolata Razvan  54% cacao cu lapte si nuca prajita 80g,Ciocolata,product,17.422,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,104
+Ciocolata Razvan 54% cacao cu lapte si nuca prajita 40g,Ciocolata,product,10.0826,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,105
+Ciocolata cu lapte 54% cacao cu sare de mare 70g Razvan,Ciocolata,product,17.422,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,106
+Ciocolata cu lapte 54% cacao cu sare de mare mini 30g Razvan,Ciocolata,product,10.0826,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,107
+Ciocolata cu lapte 54% cacao mini 30g Razvan,Ciocolata,product,10.0826,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,108
+Ciocolata Razvan 70% cacao neagra 70g,Ciocolata,product,17.422,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,109
+Ciocolata Razvan 70% cacao antivirala 40g,Ciocolata,product,13.7615,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,110
+Ciocolata Razvan 70% cacao neagra cu prune si palinca 80g,Ciocolata,product,11,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,111
+Ciocolata neagra 70% cacao cu prune si palinca mini 40g Razvan,Ciocolata,product,11,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,112
+Ciocolata Razvan 70% cacao imunitate 40g,Ciocolata,product,13.7615,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,113
+Ciocolata neagra 70% cacao mini 30g Razvan,Ciocolata,product,10.0826,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,114
+Cirese,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,115
+Cirese amare,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,116
+Cirese desamburate,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,117
+Cirese galbene,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,118
+Cirese negre,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,119
+Cirese negre uscate 100g NativeBox,Snacks,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,120
+Coacaze negre,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,121
+Cos nuiele tip valiza,Cutie cadou,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,132
+Cos pomana,Cutie cadou,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,133
+COUVERTURE / DARK 70% / LOST IN THE JUNGLE,Ciocolata,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,136
+COUVERTURE / DARKMILK 54% / LOST IN THE JUNGLE,Ciocolata,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,137
+Crackers Sfecla Rosie si Morcovi 50g - NativeBox,Snacks,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,138
+Cuvee Rosu 2016 Galicea mare,Bauturi alcoolice ,product,26.9406,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,139
+Drojdie,Ingrediente,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,141
+Dulceata cirese galbene 720g F-,Dulceata,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,145
+Dulceata de afine de padure Razvan 220g,Dulceata,product,9,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,146
+Dulceata de ardei iute - Jalapeno,Bacanie,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,150
+Dulceata de caise Razvan 220g,Dulceata,product,9,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,153
+Dulceata de cirese amare Razvan 220g,Dulceata,product,22.9358,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,156
+Dulceata de cirese galbene Razvan 220g,Dulceata,product,22.9358,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,158
+Dulceata de cirese negre GR 200g - 933387,Dulceata,product,6,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,159
+Dulceata de cirese negre Razvan 220g,Dulceata,product,9,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,160
+Dulceata de coacaze negre GR 200g - 52484,Dulceata,product,8,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,162
+Dulceata de coacaze negre Razvan 220g,Dulceata,product,8,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,163
+Dulceata de mure GR 200g - 93391,Dulceata,product,5,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,167
+Dulceata de prune 720g,Dulceata,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,168
+Dulceata de visine 720g F,Dulceata,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,170
+Dulceata mure 720g F-,Dulceata,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,174
+Duo ciocolata neagra 70% cacao Antivirala si Imunitate Razvan mini 40g,Ciocolata,product,25.6881,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,175
+Eticheta dulceata cirese negre mega image,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,178
+Eticheta dulceata coacaze,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,179
+Eticheta salata de vinete,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,180
+Eticheta zacusca la ceaun - 00101,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,181
+Eticheta magiun,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,182
+Eticheta dulceata cirese negre,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,183
+Eticheta miez nuca casoleta 200g,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,185
+Eticheta mure 200g,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,186
+Eticheta zacusca fata,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,187
+Eticheta zacusca la ceaun,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,188
+Eticheta zacusca spate,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,189
+Etichete a3,Ambalaje,product,0,ok,ok,coli,coli,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,190
+Etichete a4,Ambalaje,product,0,ok,ok,coli,coli,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,191
+Etichete adezive A4*Crema alune,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,192
+Etichete Brother 50 mm,Ambalaje,product,0,ok,ok,m,m,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,193
+Etichete Brother 62 mm,Ambalaje,product,0,ok,ok,m,m,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,194
+Etichete cirese negre 200g,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,195
+Etichete coacaze negre 200g,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,196
+Etichete Color Dulceata Borcan 220g,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,197
+Etichete mure 200g,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,198
+Etichete Spate Borcan 320g,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,199
+Etichete zacusca fata,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,200
+Etichete zacusca spate,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,201
+Faina gr�u alba ECO 1kg,Fainoase,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,208
+Faina gr�u integrala 1kg,Fainoase,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,209
+Faina malai ECO 500g,Fainoase,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,210
+Feteasca Neagra 2016 Galicea Mare,Bauturi alcoolice ,product,82.3529,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,213
+Fistic granule,Nuci,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,216
+Foi de dafin,Ingrediente,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,218
+FRIZA ROS� 2018,Bauturi,product,32.7731,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,224
+Gem de prune cu miez de nuca 720g F-,Dulceata,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,228
+Gem de visine cu miez de nuca 720g F,Dulceata,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,230
+Gem de visine cu miez de nuca Razvan 220g,Dulceata,product,9,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,231
+Gorgandin Sauvignon Blanc 2016,Bauturi alcoolice ,product,45.3782,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,233
+Gorgandin Traminer Aromatico,Bauturi alcoolice ,product,45.3782,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,234
+Granola cu alune de padure si coacaze negre fara zahar 450g Native Box,Bacanie,product,32.1101,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,239
+Granola cu caju si fulgi de cacao fara zahar 450g Native Box,Bacanie,product,32.1101,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,240
+Granola la cuptor fara zahar migdale si fulgi de cocos 450g Native Box,Bacanie,product,32.1101,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,241
+Gris de gr�u ECO 750g,Fainoase,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,242
+Ketchup artizanal Garden Dwarf by Chef Sosin,Sosuri,product,26.6055,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,246
+Kola Tonic KOFI TI 330 ml,Bauturi,product,11.0092,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,248
+Lechburg Il Frizzante Rose 0.75L,Bauturi alcoolice ,product,41.1765,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,259
+Lechburg Pinot Grigio 0.75L,Bauturi alcoolice ,product,41.1765,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,260
+Lechburg Sauvignon Blanc 0.75L,Bauturi alcoolice ,product,41.1765,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,261
+LICHIOR NUCI SAMARO,Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,262
+"Liliac Nectar 2016, Muscat Ottonel, 375 ml",Bauturi alcoolice ,product,75.6303,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,263
+Liliac Rose Pinot Noir 0.750 ml,Bauturi alcoolice ,product,46.2185,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,264
+"Liliac Unexpected 2018, Sauvignon Blanc, 750 ml",Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,265
+Magiun de prune la ceaun Razvan 320g,Dulceata,product,22.9358,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,269
+Martha Galicea Mare 2018,Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,270
+Masala Chai 100g KofiTi,Bauturi,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,271
+Melinis  de visine �n miere 230g,Miere,product,34.8624,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,274
+Melinis de afine �n miere 230g,Miere,product,34.8624,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,275
+Melinis de catina �n miere 230g,Miere,product,34.8624,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,276
+Melinis de gutui �n miere 230g,Miere,product,34.8624,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,277
+Melinis de pere �n miere 230g,Miere,product,34.8624,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,279
+Melinis de prune �n miere 230g,Miere,product,34.8624,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,280
+Melinis de trandafir �n miere 230g,Miere,product,34.8624,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,281
+Miere cu polen si propolis 260g,Miere,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,292
+Miere de tei biogetica 240g,Miere,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,296
+Miez de boabe de cacao Aromes Noir 100g,Snacks,product,18.3486,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,299
+Miez de nuca,Nuci,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,300
+Miez de nuca kg,Nuci,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,301
+Miez de nuca la caserola Razvan 200g,Nuci,product,11.9266,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,302
+Mure,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,304
+Mustar Ancient One cu vin by Chef Sosin,Sosuri,product,26.6055,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,305
+Mustar cu miere Pussy Lover by Chef Sosin,Sosuri,product,26.6055,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,306
+Mustar Kinky Dog cu hrean de la Chef Sosin,Sosuri,product,26.6055,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,307
+Mustar Macho Tears cu chilli de la Chef Sosin,Sosuri,product,26.6055,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,308
+Otet Cerbul Acru de caise 250 ml,Otet Ulei,product,13.7615,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,316
+Otet Cerbul Acru de coacaze 250ml,Otet Ulei,product,13.7615,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,317
+Otet Cerbul Acru de visine 250ml,Otet Ulei,product,13.7615,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,319
+Pachetul cu gustari pentru o cina t�rzie,Cutie cadou,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 19% Bunuri,322
+PALINCA CAISE ED LIM,Bauturi alcoolice ,product,210.084,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,328
+PALINCA MERE + 2 TOIURI,Bauturi alcoolice ,product,109.2437,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,337
+Pasta de rosii,Ingrediente,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,340
+Paste spirale cu spanac ECO 400g,Fainoase,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,341
+Paste spirale gr�u intergral ECO 400g,Fainoase,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,343
+Paste spirale spelta integral ECO 400g,Fainoase,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,344
+Paste tagliatelle cu c�nep? ECO 250g,Fainoase,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,346
+Paste tagliatelle cu gr�u ECO 250g,Fainoase,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,347
+Paste tagliatelle spelta integral ECO 250g,Fainoase,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,352
+Pinot Grigio 2018 Galicea Mare,Bauturi alcoolice ,product,36.9748,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,354
+Pinot Gris 2016 Galicea Mare,Bauturi alcoolice ,product,32.7731,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,355
+Pinot Noir Premium 2017 Villa Vinea,Bauturi alcoolice ,product,42.0168,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,356
+Piper,Ingrediente,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,357
+Prune,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,358
+Prune deshidratate,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,359
+Pungi 11*20 cm,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,362
+Rachiu de gutui Pater 0.7L,Bauturi alcoolice ,product,163.8655,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,363
+Rachiu de mure Pater 0.7L,Bauturi alcoolice ,product,210.084,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,364
+Rachiu de pere Pater 0.7L,Bauturi alcoolice ,product,147.0588,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,365
+Rachiu de struguri Pater 0.7L,Bauturi alcoolice ,product,142.8571,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,366
+Rose Vertigo 2016 Galicea Mare,Bauturi alcoolice ,product,32.7731,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,368
+Rosenauer Schnaps cirese 0.7L,Bauturi alcoolice ,product,109.2437,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,369
+Rosenauer Schnaps cirese toi 0.04L,Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,370
+Rosenauer Schnaps pere 0.7L,Bauturi alcoolice ,product,109.2437,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,371
+Rosenauer Schnaps pere toi 0.04L,Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,372
+Rosenauer Schnaps zmeura 0.7L,Bauturi alcoolice ,product,109.2437,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,373
+Rosenauer Schnaps zmeura toi 0.04L,Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,374
+Rosu de Petro Vaselo,Bauturi alcoolice ,product,41.1765,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,375
+Salata de ardei capia Razvan 320g,Zacusca,product,18.3486,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,381
+Salata de vinete Razvan 320g,Zacusca,product,10,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,384
+Sare,Ingrediente,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,385
+Sare Maldon 125 g,Bacanie,product,15.5963,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,387
+Sare Maldon 250 g,Bacanie,product,25.6881,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,388
+Sare Maldon afumata 125 g,Bacanie,product,23.8532,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,389
+Sare Maldon cu hribi,Bacanie,product,18.3486,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,390
+SET 2 TOI PRUNE,Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,391
+Set 2 toiuri afinata + visinata Bran,Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,392
+"Set 3 Miniaturi PATER - Tuica, Struguri, Pere",Bauturi alcoolice ,product,71.4286,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,393
+Set de 6 ciocolate Bean to Bar Razvan,Ciocolata,product,77.9817,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,397
+Sirop mure 750ml,Bauturi,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,404
+Sirop The Tonic KOFI TI 230 ml,Bauturi,product,32.1101,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,405
+Sirop Tonic Herbal KOFI TI 230 ml,Bauturi,product,32.1101,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,406
+Sos iute cu afine - Trinidad Scorpion Chocolate 200ml - PVI0352,Sosuri,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,409
+Sos iute cu ardei - Carolina Reaper 200ml,Sosuri,product,44.0367,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,410
+Sos iute cu mango - Jalapeno Jalmundo 200ml,Sosuri,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,412
+Tam�ioasa Rom�neasca 2016 Galicea Mare,Bauturi alcoolice ,product,57.9832,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,416
+Trio dulceata Razvan,Dulceata,product,50.4587,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,417
+"Trio zacusca, salata de ardei capia, salata de vinete",Zacusca,product,50.4587,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,418
+Tuica din prune Contiu - 500ml,Bauturi alcoolice ,product,226.8908,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,420
+Ulei,Ingrediente,product,0,ok,ok,L,L,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,423
+Ulei de in bio Luna Solai 250ml,Otet Ulei,product,32.1101,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,429
+Ulei de nuca Luna Solai 250ml,Otet Ulei,product,39.4495,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,430
+Ulei de rapita bio Luna Solai 250 ml,Otet Ulei,product,20.1835,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,431
+Ulei floarea soarelui,Ingrediente,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,433
+Unt de alune de padure Native Box,Tartinabile ,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,435
+Unt de arahide Crocant 360g,Tartinabile ,product,25.6881,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,436
+Unt de arahide Fin 360g,Tartinabile ,product,25.6881,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,437
+"Unt de migdale coapte Almond Date, noutate de la Sunday Bites, 260g",Tartinabile ,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,439
+Unt de seminte dovleac NativeBox 250g,Tartinabile ,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,441
+"Unt din alune de padure cu cacao si curmale, Hazel Date, noutate de la Sunday Bites, 250g",Tartinabile ,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,442
+"Unt din alune de padure cu miere, Sticky Bees-Knees, noutate de la Sunday Bites, 250g",Tartinabile ,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,443
+"Unt din caju copt, Chew Cashew, noutate de la Sunday Bites, 270g",Tartinabile ,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,444
+Usturoi,Ingrediente,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,445
+"Vertigo Blanc 2017 - 0,75 l",Bauturi alcoolice ,product,32.7731,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,450
+Vertigo Rose 1500 ml,Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,451
+Vin de mure - Abund Berry,Bauturi alcoolice ,product,50.4587,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,452
+Vin spumant Bendis Nadir - Petro Vaselo,Bauturi alcoolice ,product,50.4202,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,453
+Vin Spumant Bendis Rose 2017 - Petro Vaselo,Bauturi alcoolice ,product,50.4202,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,454
+Vinca Theresia Rhein Resiling 2018 - 2018,Bauturi alcoolice ,product,50.4202,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,455
+Vinete coapte kg,Legume,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,457
+Vinete crude,Legume,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,458
+VISINATA,Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,459
+Visine,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,460
+Zacusca la ceaun 750g F-,Zacusca,product,20,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,461
+Zacusca la ceaun Razvan 320g,Zacusca,product,10,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,462
+Zacusca de vinete  Razvan 350g,Zacusca,product,15.6,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,463
+Zahar,Ingrediente,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,464
+Zahar brun,Ingrediente,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,465
+Zumm Miere cu cimbrisor 250g,Miere,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,467
+Zumm Miere cu lavanda 250g,Miere,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,468
+Zumm Miere de salc�m 250g,Miere,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,469
+Borcane plastic,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,470
+Cafea El Salvador El Borbollon 1000gr,Cafea ,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,477
+Rosii manzella arp,Legume,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,490
+Rosii pulpa,Legume,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,494
+Eticheta cu pliere gusturi romanesti-zacusca cu vinete,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,496
+Palinca mere 48% 0.5l,Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,497
+Palinca prune 48% 0.5l,Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,498
+Palinca de pere 48% 0.5l,Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,500
+Milenium alb Terra Romana 375ml,Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,501
+Milenium rosu Terra Romana 375ml,Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,502
+Zahar brut,Ingrediente,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,504
+Alune padure crude,Nuci,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,505
+Miez fistic crud intreg,Nuci,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,507
+ardei capia congelat,Legume,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,508
+vinete congelate,Legume,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,509
+Ghebe congelate,Legume,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,510
+Afine congelate,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,511
+Ciocolata Razvan 54% cacao cu lapte si sare de mare 40g,Ciocolata,product,10.0917,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,513
+Dulceata de visine cu miez de nuca Razvan 380g,Dulceata,product,20.1835,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,517
+Dulceata de cirese negre Razvan 380g,Dulceata,product,18.3486,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,516
+Dulceata de visine Razvan 380g,Dulceata,product,18.3486,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,518
+Dulceata de caise Razvan 380g,Dulceata,product,18.3486,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,519
+Dulceata de afine Razvan 380g,Dulceata,product,18.3486,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,520
+Zacusca la ceaun picanta Razvan 350g,Zacusca,product,18.3486,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,521
+PIPER NEGRU BOABE,Ingrediente,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,522
+Zacusca la ceaun cu ghebe Razvan 350g,Zacusca,product,20.1835,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,523
+Zacusca Gusturi Romanesti 300G 28671,Zacusca,product,9,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,524
+Zacusca de vinete Razvan 350g,Zacusca,product,16.5138,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,525
+Cafea de specialitate Burundi 250g,Cafea ,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,758
+Boabe cacao punga,Ingrediente,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,759
+Cutii cos traditional,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,761
+Eticheta ardei capia 320g,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,762
+Eticheta ciocolata fistic 80g,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,763
+Eticheta ciocolata lapte 40g,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,764
+Eticheta ciocolata lapte 80g,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,765
+Eticheta ciocolata neagra 40g,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,766
+Eticheta ciocolata neagra 80g,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,767
+Eticheta ciocolata neagra 80g,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,767
+Eticheta ciocolata prune palinca 80g,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,769
+Eticheta ciocolata sare 40g,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,770
+Eticheta ciocolata sare 80g,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,771
+Fentimas Ginger Beer 250ml,Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,772
+Dulceata de capsuni 220g,Dulceata,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,774
+Cioco miere borcan 400g,Miere,product,24.7706,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,775
+Dulceata de coacaze negre 380g,Dulceata,product,18.3486,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,776
+Dulceata de prune cu nuca 380g,Dulceata,product,20.1835,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,777
+Ciocolata Razvan 54% cacao cu lapte 40g,Ciocolata,product,10.0826,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,779
+Ciocolata Razvan 70% cacao neagra 40g,Ciocolata,product,10,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,780
+Ciocolat? neagr? 70% cacao cu prune ?i p?linc? mini 40g R?zvan,Ciocolata,product,11,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,112
+Set de 6 ciocolate mini Bean to Bar Razvan,Ciocolata,product,50.4587,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,526
+Salata de vinete la gratar Razvan 320g,Zacusca,product,18.3486,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,515
+Cirese confiate,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,527
+Ardei iute,Ingrediente,product,0,ok,ok,g,g,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,528
+Cafea Columbia Isaias manco 250gr,Cafea ,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,530
+Cafea Columbia Isaias manco 250gr,Cafea ,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,530
+Cutie rigida 34x34x10/4 cm,Ambalaje,product,42.0168,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,534
+GM Martha Rouge 2017,Bauturi alcoolice ,product,74.7899,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,783
+Eticheta zacusca picanta,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,784
+Eticheta zacusca cu ghebe,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,785
+Eticheta salata de ardei,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,786
+Etichete dulceata afine,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,787
+Eticheta dulceata de visine,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,788
+Eticheta dulceata de visine cu nuca,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,789
+Carassia Classic 2017,Bauturi alcoolice ,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,791
+Cutie ciocolata 80 g - palinca,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,794
+Cutie ciocolata 80 g - nuca prajita,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,795
+Cutie ciocolata 80 g - cirese amare&visinata,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,796
+Cutie ciocolata 80g - alune,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,797
+Cutie ciocolata 40 g - palinca,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,798
+Cutie ciocolata 40 g - nuca prajita,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,799
+Cutie ciocolata 40 g - cirese amare&visinata,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,800
+Cutie ciocolata 40 g - alune,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,801
+Cutii colective 400x300x150,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,802
+"Peru Valentin Carranza,Jumarp FW Organic 250g",Cafea ,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,809
+Rwanda Isimbi 250g,Cafea ,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,808
+Ciocolata cu lapte 54% cacao cu alune 40g Razvan,Ciocolata,product,11,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,806
+Ciocolata neagra 70% caco cu cirese si visinata 80g Razvan,Ciocolata,product,18.3394,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,807
+Crema de alune Razvan 350 gr,Ciocolata,product,22.0183,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,811
+Ciocolata Razvan 70% cacao neagra cu cirese de visinata 40g,Ciocolata,product,11,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,815
+Pungi 11*35,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,816
+Ciocolata cu lapte 54% cacao cu alune Razvan 80g,Ciocolata,product,18.3394,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,817
+Cafea Columbia LA ESTRELLA 250G,Cafea ,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,819
+Cafea peru el romerillo 250g,Cafea ,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,820
+Miez de nuca sferturi,Nuci,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,825
+Bere Anagram Zen Den Hazy Ipa 330ml,Bauturi alcoolice ,product,12.605,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,826
+Bere Anagram Twin Sours Coffee 330ml,Bauturi alcoolice ,product,12.605,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,827
+Bere Anagram Twin Sours Grape Skins 330ml,Bauturi alcoolice ,product,12.605,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,828
+Bere Anagram Samba Stout 330ml,Bauturi alcoolice ,product,16.8067,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,829
+Sare 25 kg,Ingrediente,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,830
+Crema de alune 300g Razvan,Ciocolata,product,22.9358,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,831
+Socata cu zvac KOFI TI 300ml,Bauturi,product,11.0092,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,832
+Apa tonica Hawaii KOFI TI 300ml,Bauturi,product,13.7615,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,834
+Cafea Guatemala 112coffee 250g,Cafea ,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,835
+Cutie cu piramide de ceai bio de ceai negru si bergamota,Ceai,product,27.619,ok,ok,Units,Units,TVA colectat 5% Bunuri,TVA deductibil 5% Bunuri,836
+Cutie cu piramide de ceai bio de ceai verde si magnolie,Ceai,product,27.619,ok,ok,Units,Units,TVA colectat 5% Bunuri,TVA deductibil 5% Bunuri,837
+Cutie cu piramide de ceai bio de menta si eucalipt,Ceai,product,27.619,ok,ok,Units,Units,TVA colectat 5% Bunuri,TVA deductibil 5% Bunuri,838
+Cutie cu piramide de ceai bio de musetel si hibiscus,Ceai,product,27.619,ok,ok,Units,Units,TVA colectat 5% Bunuri,TVA deductibil 5% Bunuri,839
+Cutie cu piramide de ceai bio dulce,Ceai,product,27.619,ok,ok,Units,Units,TVA colectat 5% Bunuri,TVA deductibil 5% Bunuri,840
+Mustar Ancient One cu vin by Chef Sosin150g,Sosuri,product,15.5963,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,841
+Mustar Kinky Dog cu hrean de la Chef Sosin 150g,Sosuri,product,15.5963,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,842
+Mustar Macho Tears cu chilli de la Chef Sosin 150g,Sosuri,product,15.5963,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,843
+Mustar cu miere Pussy Lover by Chef Sosin 150g,Sosuri,product,15.5963,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,844
+Chutney de caise Bollywood Star by Chef Sosin,Sosuri,product,26.6055,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,845
+Cozonac,Bacanie,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,846
+Cuvertura Domori Puertomar 75% tableta 500g,Ciocolata,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,848
+Cuvertura Domori Puertofino 75% tableta 500g,Ciocolata,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,849
+Cuvertura Domori Chuao 75% tableta 500g,Ciocolata,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,850
+Cuvertura Domori Sur del Lago Venezuela 72%,Ciocolata,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,851
+Etichete Salata de ardei,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,852
+Etichete zacusca picanta,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,853
+Etichete dulceata de caise,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,854
+Etichete dulceata prune cu miez de nuca,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,855
+Etichete visine cu miez de nuca,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,856
+etichete zacusca de vinete,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,857
+Visine deshidratate fara samburi,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,858
+Crema Fior Ten sensibil 60 ml,Cosmetice,product,117.6471,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,859
+Crema Fior Ten matur 60 ml,Cosmetice,product,130.2521,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,860
+Crema Fior Ten mixt/gras 60 ml,Cosmetice,product,117.6471,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,861
+Crema Fior Contur ochi 30 ml,Cosmetice,product,94.958,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,862
+Crema Fior Ser regenerant 30 ml,Cosmetice,product,142.8571,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,863
+Crema Fior Unt corp Ador Fruits 120ml,Cosmetice,product,64.7059,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,864
+Crema Fior Unt de corp Ador Chocolate 120ml,Cosmetice,product,64.7059,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,865
+Crema Miresme Violete Body lotion 200ml,Cosmetice,product,84.0336,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,866
+Balsam de buze 6g Nuca,Cosmetice,product,29.4118,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,869
+Crema anti-aging fata 50 ml Nuca,Cosmetice,product,134.4538,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,870
+Gel de fata100ml Nuca,Cosmetice,product,79.8319,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,871
+Crema Miresme bujor Body lotion 200ml,Cosmetice,product,84.0336,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,872
+Crema Miresme frezie Body lotion 200ml,Cosmetice,product,84.0336,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,873
+Etichete adezive Fi 3/32 cm*Crema alune,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,876
+Pudra de lecitina din soia Bio 380G,Ingrediente,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,877
+Ou de ciocolata 190G,Ciocolata,product,36.6881,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,882
+Chardonnay premium 2019 Villa Vinea,Bauturi alcoolice ,product,42.0168,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,884
+Sauvignon blanc 2018 Villa Vinea,Bauturi alcoolice ,product,42.0168,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,885
+Riesling de Rin 2018 Villa Vinea,Bauturi alcoolice ,product,42.0168,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,886
+Feteasca neagra 2018 Villa Vinea,Bauturi alcoolice ,product,42.0168,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,887
+Rose Premium 2019 Villa Vinea,Bauturi alcoolice ,product,42.0168,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,888
+Capac TW 82,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,889
+Zmeura FGR 40/60 Dohler,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,890
+Ciocolata Razvan 54% cacao cu lapte si zmeura 80g Jane,Ciocolata,product,13.5,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,891
+Ciocolata Razvan 54% cacao cu lapte si zmeura 80g Scott,Ciocolata,product,13.5,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,892
+Ciocolata Razvan 54% cacao cu lapte si zmeura 80g Walt,Ciocolata,product,13.5,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,893
+Cutie ciocolata Fernando,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,894
+Cutie ciocolata Jane Austen,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,895
+Ciocolata Oscar Wilde,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,896
+Cutie ciocolata Scott Fitzgerald,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,897
+Cutie ciocolata Walt Whitman,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,898
+Cutie ou ciocolata,Ambalaje,product,0,ok,ok,Units,Units,TVA colectat 19% Bunuri,TVA deductibil 19% Bunuri,901
+Afine 125g,Fructe ,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,904
+Cafea Brazil 250g Origo,Cafea ,product,0,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,905
+Ciocolata 54% cacao cu lapte si coacaze 80g Oscar,Ciocolata,product,13.5,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,908
+Ciocolata 54% cacao cu lapte si coacaze 80g Fernando,Ciocolata,product,13.5,ok,ok,Units,Units,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,909
+Pudra coacaze negre 25 kg,Ingrediente,product,0,ok,ok,kg,kg,TVA colectat 9% Bunuri,TVA deductibil 9% Bunuri,91

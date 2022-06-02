@@ -1,0 +1,249 @@
+# Copyright 2022 OEC Romania SRL
+# License OPL-1.0 or later
+# (https://www.odoo.com/documentation/user/14.0/legal/licenses/licenses.html#).
+
+
+import logging
+import csv
+import os
+
+_logger = logging.getLogger(__name__)
+
+def import_partners(self):
+    #
+    headear_partener_inv = self.inverse_dict(header_partner)
+
+    keys_model1 = ['id', 'name', 'parent_id', 'vat', 'type', 'street', 'street2', 'zip', 'city', 'state_id',
+                   'country_id', 'is_company', 'email', 'phone']
+    keys_model2 = ['bank_id', 'bank_no']
+
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)))
+    for file in os.listdir(path):
+        if file.endswith(".csv"):
+            _logger.warning(f'file :{os.path.join(path, file)}')
+    _logger.warning(path)
+
+    with open(os.path.join(path, "partner.csv"), "r") as infile:
+        reader = csv.reader(infile)
+        headers = next(reader)[1:]
+
+        headers_translate = [headear_partener_inv[h] for h in headers]
+        for row in reader:
+            dict_read = {key: (value) for key, value in zip(headers_translate, row[1:])}
+
+            dict_filter_1 = dict((k, dict_read[k]) for k in keys_model1 if k in dict_read)
+            dict_filter_2 = dict((k, dict_read[k]) for k in keys_model2 if k in dict_read)
+            _logger.warning(dict_read)
+            _logger.warning(dict_filter_1)
+            state = self.merge_models('res.country.state', dict_filter_1['state_id'])
+            country = self.merge_models('res.country', dict_filter_1['country_id'])
+            bank = self.merge_models('res.bank', dict_filter_2['bank_id'])
+            dict_filter_1['country_id'] = country.id
+            dict_filter_1['state_id'] = state.id
+            partner = self.env['res.partner'].create(dict_filter_1)
+            self.env['res.partner.bank'].create({
+                'acc_number': dict_filter_2['bank_no'],
+                'partner_id': partner.id,
+                'bank_id': bank.id,
+            })
+    return partner
+
+
+def update_valuation_models(self, file_name,field_search='description',header_generic=header_stock_valuation_layer_g,):
+
+        mod,relmod,ks,name_inventory_list= header_inventory_g['inventory_id']
+        name_inventory= name_inventory_list[0][1]
+
+        extra_string =f"INV:{name_inventory} - "
+
+        headear_val_inv = self.inverse_dict1(header_stock_valuation_layer_g)
+
+        models = []
+        header_generic = {key: val for key, val in header_generic.items() if val != 0}
+
+        for keyss, values in header_generic.items():
+            if values != 0:
+                t, m, cm, f = values
+                _logger.warning(f"Model {m}")
+                models.append(m)
+        models = list(set(models))
+        _logger.warning(models)
+
+        keys_models = []
+        for model in models:
+            keys_model = []
+            for keyss, values in header_generic.items():
+                t, m, cm, f = values
+                if m == model:
+                    keys_model.append(keyss)
+            keys_models.append(keys_model)
+
+        _logger.warning(keys_models)
+
+
+        with open(self.get_path(file_name), "r") as infile:
+            reader = csv.reader(infile)
+            headers = next(reader)[0:]
+            _logger.warning(headers)
+            headers_translate = [headear_val_inv[h] for h in headers]
+            _logger.warning(headers_translate)
+            _logger.warning(keys_models)
+            for row in reader:
+                dict_read = {key: (value) for key, value in zip(headers_translate, row[0:])}
+                value_search = extra_string + dict_read["product_id"]
+                _logger.warning(value_search)
+                row_update = self.env[models[0]].search([('description', '=', value_search)])
+                _logger.warning(row_update)
+                res = {'unit_cost':dict_read['unit_cost'],
+                       'value': float(dict_read['unit_cost'])*float(dict_read['quantity'])}
+                row_update.write(res)
+
+        return True
+
+def update_product1_models(self, file_name,header_generic):
+# update in product.template cost field from valuation.csv file
+
+        headear_val_inv = self.inverse_dict1(header_generic)
+
+        models = []
+        header_generic = {key: val for key, val in header_generic.items() if val != 0}
+
+        for keyss, values in header_generic.items():
+            if values != 0:
+                t, m, cm, f = values
+                _logger.warning(f"Model {m}")
+                models.append(m)
+        models = list(set(models))
+        _logger.warning(models)
+
+        keys_models = []
+        for model in models:
+            keys_model = []
+            for keyss, values in header_generic.items():
+                t, m, cm, f = values
+                if m == model:
+                    keys_model.append(keyss)
+            keys_models.append(keys_model)
+
+        _logger.warning(keys_models)
+
+        with open(self.get_path(file_name), "r") as infile:
+            reader = csv.reader(infile)
+            headers = next(reader)[0:]
+
+            _logger.warning(headers)
+            headers_translate = [headear_val_inv[h] for h in headers]
+
+            _logger.warning(headers_translate)
+            _logger.warning(keys_models)
+            for row in reader:
+                dict_read = {key: (value) for key, value in zip(headers_translate, row[0:])}
+                value_search =  dict_read["name"]
+                _logger.warning(value_search)
+                row_update = self.env[models[0]].search([('name', '=', value_search)])
+                _logger.warning(row_update)
+                res = {'standard_price': dict_read['standard_price']
+                       }
+                row_update.write(res)
+
+        return True
+
+def update_product_correct (self):
+    cat_id =self.env['product.category'].search([('name','=','Alte mat. Consumabile')])
+    products_consumabile = self.env['product.template'].search([('categ_id', '=', cat_id)])
+
+    for product in products_consumabile:
+        if products_consumabile.default_code:
+            if len(products_consumabile.default_code) == 10:
+                _logger.warning(products_consumabile.default_code[5])
+                if products_consumabile.default_code[5]!='S':
+                    prev = products_consumabile.default_code[0:5]
+                    last = products_consumabile.default_code[5:0]
+                    res =prev +'S'+last
+                    _logger.warning(res)
+                    product.write({'default_code':res})
+    return True
+
+
+
+def update_product_models(self, file_name, field_search, header_generic, extra_string=None):
+    # update in product.template tax field
+    headear_partener_inv = self.inverse_dict1(header_generic)
+
+    models = []
+    header_generic = {key: val for key, val in header_generic.items() if val != 0}
+
+    for keyss, values in header_generic.items():
+        if values != 0:
+            t, m, cm, f = values
+            _logger.warning(f"Model {m}")
+            models.append(m)
+    models = list(set(models))
+    _logger.warning(models)
+
+    keys_models = []
+    for model in models:
+        keys_model = []
+        for keyss, values in header_generic.items():
+            t, m, cm, f = values
+            if m == model:
+                keys_model.append(keyss)
+        keys_models.append(keys_model)
+
+    _logger.warning(keys_models)
+    keys_first_mode = keys_models[0].remove(field_search)
+
+    with open(self.get_path(file_name), "r") as infile:
+        reader = csv.reader(infile)
+        headers = next(reader)[0:]
+        _logger.warning(headers)
+        headers_translate = [headear_partener_inv[h] for h in headers]
+        _logger.warning(headers_translate)
+        _logger.warning(keys_models)
+        for row in reader:
+            dict_read = {key: (value) for key, value in zip(headers_translate, row[0:])}
+            value_search = dict_read[field_search]
+            field_update = self.env[models[0]].search([(field_search, '=', value_search)])
+            dict_filter_1 = dict((k, dict_read[k]) for k in keys_models[0] if k in dict_read)
+            _logger.warning(dict_filter_1)
+            _logger.warning(value_search)
+            if field_update['taxes_id']:
+                _logger.warning('yep')
+                _logger.warning(field_update['taxes_id'])
+                tax_find = field_update['taxes_id']
+                field_update.write({'taxes_id': [(3, tax_find.id)]})
+                _logger.warning(field_update['taxes_id'])
+
+            if field_update['supplier_taxes_id']:
+                _logger.warning('yyep')
+                _logger.warning(field_update['supplier_taxes_id'])
+                tax_find = field_update['supplier_taxes_id']
+                field_update.write({'taxes_id': [(3, tax_find.id)]})
+                _logger.warning(field_update['supplier_taxes_id'])
+
+            rvalue = dict_filter_1['taxes_id']
+            rel_keys = [('name', rvalue)]
+
+            item_object, mess = self.merge_models('account.tax', dict_filter_1['taxes_id'], rel_keys)
+            dict_filter_1['taxes_id'] = [(4, item_object.id)]
+
+            rvalue = dict_filter_1['supplier_taxes_id']
+            rel_keys = [('name', rvalue)]
+            item_object, mess = self.merge_models('account.tax', dict_filter_1['supplier_taxes_id'], rel_keys)
+            dict_filter_1['supplier_taxes_id'] = [(4, item_object.id)]
+            dict_filter_1['default_code'] = value_search
+            _logger.warning('Final')
+            _logger.warning(dict_filter_1)
+            field_update.write({'taxes_id': dict_filter_1['taxes_id'],
+                                'supplier_taxes_id': dict_filter_1['supplier_taxes_id'],
+                                'default_code': dict_filter_1['default_code']})
+            # if
+            #     t, m, cm, f = values
+            #     if keyss in keys_models[0]:
+            #         if cm:
+            #             _logger.warning(cm)
+            #             item_object = self.merge_models(cm, dict_filter_1[keyss], f)
+            #             dict_filter_1[keyss] = item_object.id
+            # field_update.write(dict_filter_1)
+
+    return True

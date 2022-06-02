@@ -1,0 +1,2 @@
+Id,Nume,Parinte,CUI,Adresa,Adresa2,Cod_postal,Oras,Tara,Judet,Este_companie,Email,Telefon,Banca,Numar_cont,
+1,Fildes,None,RO124557455,str.Glorie nr.1,,310011,Arad,Ro,Arad,True,fil@fur.com,0745524,Banca Transilvania,RO45TLV454545004XX
